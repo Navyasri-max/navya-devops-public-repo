@@ -1,7 +1,10 @@
 this is a test file
 made changed in github
 <<<<<<< HEAD
+<<<<<<< HEAD
 more content--
 =======
 edit and test git merge logs
 >>>>>>> feature-2
+=======
+>>>>>>> parent of 7b7b36a (to test merge log commit)
