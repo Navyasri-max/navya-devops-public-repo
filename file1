@@ -1,3 +1,7 @@
 this is a test file
 made changed in github
+<<<<<<< HEAD
 more content--
+=======
+edit and test git merge logs
+>>>>>>> feature-2
