@@ -1,2 +1,12 @@
-this is a test file
-made changed in github
+public class SimpleJavaTest {
+
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 0;
+
+        // Division by zero to trigger a SonarQube issue
+        int result = a / b;
+
+        System.out.println("Result: " + result);
+    }
+}
