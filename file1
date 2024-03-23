@@ -1,10 +1,13 @@
-this is a test file
-made changed in github
-<<<<<<< HEAD
-<<<<<<< HEAD
-more content--
-=======
-edit and test git merge logs
->>>>>>> feature-2
-=======
->>>>>>> parent of 7b7b36a (to test merge log commit)
+public class SimpleJavaTest {
+
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 0;
+
+        // Division by zero to trigger a SonarQube issue
+        int result = a / b;
+
+        System.out.println("Result: " + result);
+    }
+}
+
