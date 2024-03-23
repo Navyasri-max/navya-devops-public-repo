@@ -10,3 +10,4 @@ public class SimpleJavaTest {
         System.out.println("Result: " + result);
     }
 }
+
