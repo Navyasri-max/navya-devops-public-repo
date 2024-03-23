@@ -11,7 +11,7 @@
        // }
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo 'this is an example pipeline job to illustrate pipeline from SCM'
             }
         }
     }
